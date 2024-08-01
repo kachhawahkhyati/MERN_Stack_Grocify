@@ -1,0 +1,57 @@
+.sbox {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 211, 211);
+    position: fixed;
+    top: 0%;
+    left: 0;
+}
+
+.sbox input[type="text"] {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+    background-color: rgb(234, 218, 218);
+    border: none;
+    color: rgba(0, 0, 0, 0.637);
+    padding: 1vmax 2vmax;
+    width: 50%;
+    outline: none;
+    border-radius: 0%;
+    font: 300 1.1vmax cursive;
+    box-sizing: border-box;
+    height: 10%;
+}
+
+.sbox input[type="submit"] {
+    height: 8%;
+    border-radius: 0%;
+    background-color: #b7e381;
+    border: none;
+    padding: 1vmax;
+    width: 10%;
+    font: 300 1.1vmax "Roboto";
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+
+.sbox input[type="submit"]:hover {
+    background-color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    .sbox input[type="text"] {
+        width: 100%;
+        font: 300 4vw cursive;
+        height: 10%;
+    }
+
+    .sbox input[type="submit"] {
+        height: 10%;
+        width: 30%;
+        font: 300 4vw "Roboto";
+    }
+}

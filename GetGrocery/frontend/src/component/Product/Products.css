@@ -1,0 +1,88 @@
+.productsHead {
+    /* text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vmax;
+    border-bottom: 1px solid rgba(171, 5, 46, 0.7);
+    width: 50vmax;
+    padding: 1vmax;
+    margin: 1vmax auto;
+    color: rgba(171, 5, 46, 0.7); */
+    text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4vmax;
+  border-bottom: 1px solid rgb(36, 8, 58);
+   width: 50vmax;
+    padding: 1vmax;
+    margin: 1vmax auto;
+  color: rgb(36, 8, 58);
+}
+
+.productsall {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 7vmax;
+    justify-content: center;
+    min-height: 30vh;
+    /* background-color: #D5E4C3; */
+    margin: 3vmax 3vmax;
+}
+
+.filtBox {
+    width: 10vmax;
+    position: absolute;
+    top: 14vmax;
+    left: 4vmax;
+}
+
+.filtBox .a {
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.filtBox .b {
+    margin-top: 15px;
+
+}
+
+.category {
+    margin-top: 15px;
+    padding: 0%;
+    text-align: center;
+    font-family: "Cambria";
+    font-size: 20px;
+}
+
+.category-link {
+    list-style: none;
+    color: rgba(15, 15, 14, 0.61);
+    font: 400 0.8vmax "Roboto";
+    margin: 0.4vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+
+.category-link:hover {
+    color: #b7e381;
+}
+
+.filtBox fieldset {
+    border: 1px solid rgba(168, 36, 36, 0.329);
+}
+
+@media screen and (max-width: 600px) {
+    .filtBox {
+        width: 20vmax;
+        position: static;
+        margin: auto;
+    }
+
+    .page-link {
+        font: 300 1.7vmax "Roboto";
+    }
+
+    .category-link {
+        font: 400 1.8vmax "Roboto";
+    }
+}

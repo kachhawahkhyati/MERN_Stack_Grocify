@@ -1,0 +1,107 @@
+.about {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: #D5E4C3;
+  display: grid;
+  position: fixed;
+}
+
+.about1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: rgb(255, 255, 255);
+  width: 80vw;
+  height: 100vh;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: -10px 10px 10px rgba(107, 6, 6, 0.192);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.about1 h1 {
+  /* font: 400 2vmax "Cambria";
+  color: rgba(171, 5, 46, 0.7);
+  margin: 2vmax;
+  text-align: center;
+  width: 30vmax;
+  border-bottom: 1px solid rgba(171, 5, 46, 0.7); */
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4vmax;
+  border-bottom: 1px solid rgb(36, 8, 58);
+  margin: 2vmax;
+  text-align: center;
+  width: 30vmax;
+  color: rgb(36, 8, 58);
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+}
+
+.about1 h2 {
+  /* font: 800 2vmax "Cambria"; */
+  color: greenyellow;
+  margin: 2vmax;
+  text-align: center;
+  font-size: 30px;
+}
+
+.about1 div {
+  display: flex;
+  width: 100%;
+}
+
+.about1 div div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+}
+
+.about1 div div p {
+  color: rgba(0, 0, 0, 0.623);
+  font: 100 1vmax "Roboto";
+}
+
+.about1 div div button {
+  margin: 1vmax 0;
+}
+
+.about1 div div span p {
+  font: 100 1vmax "Cambria";
+  color: rgba(2, 5, 61, 0.616);
+  text-align: justify;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .about1 div {
+    display: block;
+  }
+
+  .about1 h1 {
+    font: 400 5vmax "Cambria";
+    margin: 3vmax;
+    
+  }
+
+  .about1 div div p {
+    font: 100 2vmax "Cambria";
+  }
+
+  .about1 div div span {
+    font: 100 1.4vmax "Cambria";
+    width: 70%;
+  }
+
+}
